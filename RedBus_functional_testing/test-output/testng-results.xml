@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-09T00:05:06 IST" name="Default suite" finished-at="2023-02-09T00:05:12 IST" duration-ms="5607">
+    <groups>
+    </groups>
+    <test started-at="2023-02-09T00:05:06 IST" name="Default test" finished-at="2023-02-09T00:05:12 IST" duration-ms="5607">
+      <class name="RedBus_Automation_Testing.RedBus_functional_testing.RedBus_Home_Page">
+        <test-method signature="Home_page()[pri:0, instance:RedBus_Automation_Testing.RedBus_functional_testing.RedBus_Home_Page@316bcf94]" started-at="2023-02-09T00:05:06 IST" name="Home_page" finished-at="2023-02-09T00:05:12 IST" duration-ms="5567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_page -->
+      </class> <!-- RedBus_Automation_Testing.RedBus_functional_testing.RedBus_Home_Page -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

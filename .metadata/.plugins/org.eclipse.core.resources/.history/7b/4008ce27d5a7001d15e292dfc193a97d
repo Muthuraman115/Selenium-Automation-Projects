@@ -1,0 +1,37 @@
+package RedBus_Automation_Testing.RedBus_functional_testing;
+
+import java.time.Duration;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class RedBus_Home_Page {
+
+	@Test
+	public static void Home_page()
+	{
+		System.getProperty("webdriver.chrome.driver", "C:\\Users\\MUTHURAMAN\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://www.redbus.in/");
+		driver.findElement(By.xpath("//input[@id='src']")).sendKeys("Che");
+		List<WebElement> fromcity=driver.findElements(By.xpath("//ul[@class='autoFill homeSearch']"));
+		for(WebElement extracted:fromcity)
+		{
+			System.out.println(extracted.getText());
+			String compare=extracted.getText();
+			if(compare.equalsIgnoreCase("Thiruvanmiyur, Chennai"))
+			{
+				System.out.println("In");
+				extracted.click();
+				break;
+			}
+		}
+	}
+}
