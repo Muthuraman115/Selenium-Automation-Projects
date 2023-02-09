@@ -25,10 +25,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Jio_saavn.Jio_saavn_Testing"/>
 		</list>
 		<list key="groupId">
+			<item value="Jio_saavn"/>
 		</list>
 		<list key="artifactId">
+			<item value="Jio_saavn_Testing"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
