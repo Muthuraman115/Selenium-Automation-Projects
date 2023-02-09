@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RedBus_Automation_Testing.RedBus_functional_testing.RedBus_Home_Page">
+      <class name="Redbus_BusSeaching_Testcase.RedBus_Home_Page_Testcase">
         <methods>
           <include name="Home_page"/>
         </methods>
-      </class> <!-- RedBus_Automation_Testing.RedBus_functional_testing.RedBus_Home_Page -->
+      </class> <!-- Redbus_BusSeaching_Testcase.RedBus_Home_Page_Testcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

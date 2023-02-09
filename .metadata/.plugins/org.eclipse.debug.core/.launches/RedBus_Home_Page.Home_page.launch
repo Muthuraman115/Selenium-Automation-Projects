@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RedBus_functional_testing"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RedBus_Bus_Searching"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
     <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
-        <mapEntry key="RedBus_Automation_Testing.RedBus_functional_testing.RedBus_Home_Page" value="Home_page"/>
+        <mapEntry key="Redbus_BusSeaching.RedBus_Home_Page" value="Home_page"/>
     </mapAttribute>
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
-        <listEntry value="RedBus_Automation_Testing.RedBus_functional_testing.RedBus_Home_Page"/>
+        <listEntry value="Redbus_BusSeaching.RedBus_Home_Page"/>
     </listAttribute>
     <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST">
         <listEntry value="Home_page"/>

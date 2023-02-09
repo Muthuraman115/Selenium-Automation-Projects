@@ -1,0 +1,12 @@
+package Redbus_BusSeaching_Testcase;
+
+
+
+public class RedBus_Home_Page_Testcase {
+
+	@Test
+	public static void Home_page()
+	{
+		
+	}
+}

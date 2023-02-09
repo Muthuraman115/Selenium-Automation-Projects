@@ -1,0 +1,80 @@
+package RedBus_PageObjectModels;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class RedBus_Home_Page {
+	WebDriver driver;
+	public RedBus_Home_Page(WebDriver driver)
+	{
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+	@FindBy(xpath="//input[@id='src']")
+	WebElement Fromcity;
+	@FindBy(xpath="//input[@id='dest']")
+	WebElement Tocity;
+	@FindBy(xpath="//ul[@class='autoFill homeSearch']/child::li")
+	WebElement selectdropdowncities;
+	@FindBy(css=".monthTitle")
+	WebElement Month;
+	@FindBy(xpath="(//button[normalize-space()='>'])[1]")
+	WebElement nextpagebutton;
+	@FindBy(xpath="//button[@id='search_btn']")
+	WebElement searchbutton;
+	String fromcity="Chen";
+	String selectfromcity="Thiruvanmiyur, Chennai";
+	String tocity="Tri";
+	String selecttocity="Trichy";
+	String findmonth="Feb";
+	String finddate="9";
+	public void selectfromandtocities()
+	{
+		Fromcity.sendKeys(fromcity);
+		@SuppressWarnings("unchecked")
+		List<WebElement> fromcity=(List<WebElement>) selectdropdowncities;	
+		selectcity(fromcity,selectfromcity);
+		Tocity.sendKeys(tocity);
+		@SuppressWarnings("unchecked")
+		List<WebElement> tocity=(List<WebElement>) selectdropdowncities;	
+		selectcity(tocity,selecttocity);
+	}
+	public void loadhomepage()
+	{
+		driver.get("https://www.redbus.in/");
+	}
+	public void selectcity(List<WebElement> webelementcity,String city)
+	{
+		for(WebElement extracted:webelementcity)
+		{
+			if(extracted.getText().equalsIgnoreCase(city))
+			{
+				extracted.click();
+				break;
+			}
+		}
+	}
+	public void selectcalendar()
+	{
+		String month=Month.getText().split(" ")[0];
+		while(month!=findmonth)
+		{
+			if(month.equalsIgnoreCase(findmonth))
+			{
+				break;
+			}
+			else
+			{
+				nextpagebutton.click();
+				month=Month.getText().split(" ")[0];
+			}
+		}
+		
+		
+	}
+}

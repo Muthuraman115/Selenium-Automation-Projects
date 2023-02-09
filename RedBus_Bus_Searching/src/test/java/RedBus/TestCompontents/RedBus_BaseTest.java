@@ -1,0 +1,33 @@
+package RedBus.TestCompontents;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import RedBus_PageObjectModels.RedBus_Home_Page;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class RedBus_BaseTest{
+	WebDriver driver;
+	RedBus_Home_Page Home_page;
+	public WebDriver initialize()
+	{
+		ChromeOptions chromeOptions = new ChromeOptions();
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver(chromeOptions);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		return driver;
+	}
+	public void gotoHome()
+	{
+		driver=initialize();
+		Home_page=new RedBus_Home_Page(driver);
+		Home_page.loadhomepage();
+		Home_page.selectfromandtocities();
+		Home_page.selectcalendar();
+		Home_page.selectbutton();
+	}
+}

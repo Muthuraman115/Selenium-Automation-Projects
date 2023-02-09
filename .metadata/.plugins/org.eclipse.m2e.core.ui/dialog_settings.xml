@@ -25,13 +25,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="RedBus_Automation_Testing.RedBus_functional_testing"/>
 		</list>
 		<list key="groupId">
-			<item value="RedBus_Automation_Testing"/>
 		</list>
 		<list key="artifactId">
-			<item value="RedBus_functional_testing"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
