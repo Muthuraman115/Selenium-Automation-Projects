@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-09T19:00:19 IST" name="Default suite" finished-at="2023-02-09T19:00:26 IST" duration-ms="6569">
+  <suite started-at="2023-02-11T18:44:57 IST" name="Suite" finished-at="2023-02-11T18:45:04 IST" duration-ms="6858">
     <groups>
     </groups>
-    <test started-at="2023-02-09T19:00:19 IST" name="Default test" finished-at="2023-02-09T19:00:26 IST" duration-ms="6569">
+    <test started-at="2023-02-11T18:44:57 IST" name="Test" finished-at="2023-02-11T18:45:04 IST" duration-ms="6858">
       <class name="Redbus_BusSeaching_Testcase.RedBus_Home_Page_Testcase">
-        <test-method signature="Home_page()[pri:0, instance:Redbus_BusSeaching_Testcase.RedBus_Home_Page_Testcase@47d9a273]" started-at="2023-02-09T19:00:19 IST" name="Home_page" finished-at="2023-02-09T19:00:26 IST" duration-ms="6520" status="PASS">
+        <test-method signature="Home_page()[pri:0, instance:Redbus_BusSeaching_Testcase.RedBus_Home_Page_Testcase@51e69659]" started-at="2023-02-11T18:44:57 IST" name="Home_page" finished-at="2023-02-11T18:45:04 IST" duration-ms="6815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_page -->
       </class> <!-- Redbus_BusSeaching_Testcase.RedBus_Home_Page_Testcase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

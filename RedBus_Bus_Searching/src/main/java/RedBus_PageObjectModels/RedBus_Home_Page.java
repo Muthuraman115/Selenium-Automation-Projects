@@ -31,8 +31,8 @@ public class RedBus_Home_Page {
 	String selectfromcity="Thiruvanmiyur, Chennai";
 	String tocity="Tri";
 	String selecttocity="Trichy";
-	String findmonth="Feb";
-	String finddate="9";
+	String findmonth="Mar";
+	String finddate="11";
 	public void selectfromandtocities()
 	{
 		Fromcity.sendKeys(fromcity);

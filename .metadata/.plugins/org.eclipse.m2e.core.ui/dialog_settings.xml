@@ -25,12 +25,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="JQuery_components_testing"/>
+			<item value="MakeMyTrip_Testing.MakeMyTrip_booking_Searching"/>
 			<item value="Jio_saavn.Jio_saavn_Testing"/>
 		</list>
 		<list key="groupId">
+			<item value="JQuery_components_testing"/>
+			<item value="MakeMyTrip_Testing"/>
 			<item value="Jio_saavn"/>
 		</list>
 		<list key="artifactId">
+			<item value="All_components_testing"/>
+			<item value="MakeMyTrip_booking_Searching"/>
 			<item value="Jio_saavn_Testing"/>
 		</list>
 		<list key="projectNameTemplate">

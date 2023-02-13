@@ -2,17 +2,25 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="RedBus_PageObjectModels.RedBus_Home_Page"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
     <fullyQualifiedTypeName name="RedBus.TestCompontents.RedBus_BaseTest"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="JQuery_Components_POM_Data_Management.Data_Management_File_Manager"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="JQuery_components_testing_basetest.BaseTest_Data_Management"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WindowType"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
 </qualifiedTypeNameHistroy>

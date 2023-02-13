@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-09T23:48:18 IST" name="Default suite" finished-at="2023-02-09T23:49:15 IST" duration-ms="56178">
+  <suite started-at="2023-02-10T00:04:02 IST" name="Default suite" finished-at="2023-02-10T00:05:04 IST" duration-ms="62442">
     <groups>
     </groups>
-    <test started-at="2023-02-09T23:48:18 IST" name="Default test" finished-at="2023-02-09T23:49:15 IST" duration-ms="56178">
+    <test started-at="2023-02-10T00:04:02 IST" name="Default test" finished-at="2023-02-10T00:05:04 IST" duration-ms="62442">
       <class name="Jio_saavn.Jio_saavn_Testing.JioSaavn_Testing">
-        <test-method signature="Testing_Jiosaavn()[pri:0, instance:Jio_saavn.Jio_saavn_Testing.JioSaavn_Testing@4b0d79fc]" started-at="2023-02-09T23:48:19 IST" name="Testing_Jiosaavn" finished-at="2023-02-09T23:49:15 IST" duration-ms="56135" status="PASS">
+        <test-method signature="Testing_Jiosaavn()[pri:0, instance:Jio_saavn.Jio_saavn_Testing.JioSaavn_Testing@4b0d79fc]" started-at="2023-02-10T00:04:02 IST" name="Testing_Jiosaavn" finished-at="2023-02-10T00:05:04 IST" duration-ms="62314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing_Jiosaavn -->
